@@ -30,7 +30,7 @@ h2{
     text-shadow: 0 0 0.5em var(--color-caja), 0 0 0.5em var(--color-caja);;
 }
 .P1{
-    font-size: 2rem;
+    font-size: 1.6rem;
     justify-self: left;
     align-self: flex-start;
     margin-right: 1%;
