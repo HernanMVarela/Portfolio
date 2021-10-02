@@ -4,6 +4,7 @@
     --color-fuente: rgb(69, 138, 235);
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/54/22/rLsYEI.jpg");
     background-attachment: fixed;
     height: 200%;
@@ -104,7 +105,7 @@ h2{
     background: rgb(0, 0, 0);
     background-position-y: 50px;
     background-position-x: center;
-    background-image: url("https://imgur.com/Tqkf6rA.gif");
+    background-image: url("https://imgur.com/1Ra4J0x.gif");
     background-size:cover;
     background-repeat: no-repeat;
 }
