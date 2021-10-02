@@ -1,0 +1,310 @@
+:root{
+    --color-fondo: black;
+    --color-caja: rgb(0, 85, 196);
+    --color-fuente: rgb(69, 138, 235);
+}
+body{
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/54/22/rLsYEI.jpg");
+    background-attachment: fixed;
+    height: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+h1{
+    font-size: 4rem;
+    background-color: rgba(1, 0, 61, 0.658);
+    text-align: center;
+    color: var(--color-fuente);
+    text-shadow: 0 0 0.5em var(--color-caja), 0 0 0.5em var(--color-caja);;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(78, 78, 190, 0.74);
+    background-size:80%;
+    color: var(--color-fuente);
+    border-radius: 1em;
+    justify-self: center;
+    align-self: flex-start;
+    text-shadow: 0 0 0.5em var(--color-caja), 0 0 0.5em var(--color-caja);;
+}
+.P1{
+    font-size: 2rem;
+    justify-self: left;
+    align-self: flex-start;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: justify;
+    text-justify:inter-word;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.container1{
+    background-color: rgba(43, 43, 43, 0.726);
+    width: 95%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    border-radius: 1em;
+    justify-content:space-evenly;
+    align-items: center;    
+    z-index: 0;
+}
+.container2{
+    background-color: rgba(46, 46, 46, 0.781);
+    background-image: url("https://i.imgur.com/P4YmuVK.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 20%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    flex-direction: column;
+    align-self: flex-start;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 1em;
+    z-index: 0;
+    box-shadow: 0 0 1em var(--color-caja), 0 0 1em var(--color-caja);
+}
+#C1{
+    background: rgb(0, 0, 0);
+    background-position-y: 50px;
+    background-position-x: center;
+    background-image: url("https://imgur.com/GVtqOjZ.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#C2{
+    background: rgb(0, 0, 0);
+    background-position-y: 50px;
+    background-position-x: center;
+    background-image: url("https://imgur.com/Y3PV9uK.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#C3{
+    background: rgb(0, 0, 0);
+    background-position-y: 50px;
+    background-position-x: center;
+    background-image: url("https://imgur.com/ffbA4qP.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#C4{
+    background: rgb(0, 0, 0);
+    background-position-y: 50px;
+    background-position-x: center;
+    background-image: url("https://imgur.com/6xfQ91X.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#G1{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/2c1nWH7.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#G2{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/fgKT4zw.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#G3{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/xgE6JLY.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#G4{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/ClHSP9r.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#R1{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/VwV0WQQ.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#R2{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/6DwDwDs.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#R3{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/i0joj7R.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#R4{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/T5HFUyW.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#A1{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/GEWkLKK.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#A2{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/wL19wuW.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#A3{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/bTeA3L8.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#A4{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/nuJ0L8P.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#S1{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/k611dTL.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#S2{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/mbpduu4.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#S3{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/A7PX7dW.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#S4{
+    background: rgb(0, 0, 0);
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url("https://imgur.com/6vTVYWy.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.card{
+    font-size: 2rem;
+    color: var(--color-fuente);
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    text-align: center;    
+    text-decoration: none;
+    width: 40%;
+    height: 40%;
+    border: currentColor 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    z-index: 1;
+    box-shadow: 0 0 0.5em var(--color-caja), 0 0 0.5em var(--color-caja);
+}
+.card::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 3em 0.5em var(--color-caja);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 200ms linear;
+}
+.card:hover,.card:focus{
+    text-shadow: none;
+}
+.card:hover::after{
+    opacity: 1;
+}
+.card2{
+    font-size: 2rem;
+    color: var(--color-fuente);
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    text-align: center;  
+    text-decoration: none;
+    width: 41%;
+    height: 40%;
+    border: currentColor 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+    z-index: 1;
+    box-shadow: 0 0 0.5em var(--color-caja), 0 0 0.5em var(--color-caja);
+}
+.card2::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 3em 0.5em var(--color-caja);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 200ms linear;
+}
+.card2:hover,.card2:focus{
+    text-shadow: none;
+}
+.card2:hover::after{
+    opacity: 1;
+}
