@@ -257,6 +257,7 @@ h2{
     border-radius: 0.25em;
     z-index: 1;
     box-shadow: 0 0 0.5em var(--color-caja), 0 0 0.5em var(--color-caja);
+    transition: transform 500ms;
 }
 .card::after{
     content: '';
@@ -272,6 +273,7 @@ h2{
 }
 .card:hover,.card:focus{
     text-shadow: none;
+    transform: scale(1.05);
 }
 .card:hover::after{
     opacity: 1;
@@ -291,6 +293,8 @@ h2{
     border-radius: 0.25em;
     z-index: 1;
     box-shadow: 0 0 0.5em var(--color-caja), 0 0 0.5em var(--color-caja);
+    transition: transform 500ms;
+    
 }
 .card2::after{
     content: '';
@@ -306,7 +310,10 @@ h2{
 }
 .card2:hover,.card2:focus{
     text-shadow: none;
+    transform: scale(1.2);
+    z-index: 10;
 }
 .card2:hover::after{
     opacity: 1;
+    z-index: -1;
 }
